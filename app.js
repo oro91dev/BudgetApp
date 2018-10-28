@@ -119,7 +119,7 @@ var UIController = (function() {
         getinput: function() {
             return {                
               type: document.querySelector(DOMstrings.inputType).value, 
-              description: document.querySelector(DOMstrings.inputDescription).value,             value: parseFloat(document.querySelector(DOMstrings.inputValue).value)
+              description: document.querySelector(DOMstrings.inputDescription).value, value: parseFloat(document.querySelector(DOMstrings.inputValue).value)
             };
     
         },
